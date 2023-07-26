@@ -1,0 +1,31 @@
+@media screen and (max-width: 1500px) {
+  .container-fluid {
+    padding-top: 108px !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container-fluid {
+    padding-top: 110px !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container-fluid {
+    padding-top: 90px !important;
+  }
+}
+@media screen and (max-width: 420px) {
+  .container-fluid {
+    padding-top: 80px !important;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 750px) {
+  #importPTPPage .btn,
+  #importPTPPage .btn a {
+    font-size: 25px;
+  }
+  #importPTPPage #importptpctryCode {
+    font-size: 25px;
+    height: 49px;
+  }
+}
